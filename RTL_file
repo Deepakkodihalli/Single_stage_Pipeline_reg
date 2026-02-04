@@ -2,7 +2,7 @@
 module pipeline_reg (
     input  logic        clk,
     input  logic        rst,
-    input  logic [7:0]  in,
+    input  logic [7:0]  in, 
     input  logic        in_valid,
     output logic        in_ready,
     output logic [7:0]  out,
